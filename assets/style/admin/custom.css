@@ -1,0 +1,517 @@
+/* Hide GoDaddy hosting expiry banner */
+body > div:has(a[href*="host.godaddy.com"]) {
+  display: none !important;
+}
+
+.m-l-20 {
+    margin-left: 20px;
+}
+.page-header.navbar{
+    height: 60px;
+    min-height: 60px;
+}
+.page-header.navbar .menu-toggler.sidebar-toggler {
+    margin: 23px 0 0;
+}
+.page-header.navbar .page-top {
+    height: 60px;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown {
+    height: 60px;
+}
+.page-header-fixed .page-container {
+    margin-top: 60px;
+}
+.page-header.navbar .page-logo {
+     height: 60px;
+ }
+.page-header.navbar .menu-toggler.responsive-toggler {
+    margin: 21.5px 14px 0 6px;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-user .dropdown-toggle {
+    padding: 20px 10px 18px;
+}
+.page-header.navbar .page-logo .logo-default {
+    margin: 23px 10px 0;
+}
+
+.chart-holder {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.pagination .active > a, .pagination .active > a:hover {
+    color: rgb(51, 51, 51);
+    background: rgb(238, 238, 238);
+    border-color: rgb(221, 221, 221);
+}
+.page-header.navbar .page-logo>.logo-image, .page-header.navbar .page-logo>a {
+    font-size: 21px;
+    color: #fff;
+    padding: 15px 0px;
+    text-decoration: none;
+}
+.page-header.navbar .page-logo>a:hover {
+    color: #cdf0f0;
+}
+.profile-usertitle-name{
+    text-transform: capitalize;
+}
+ .profile-userpic img {
+     -webkit-border-radius:5px;
+     border-radius:5px !important;
+ }
+.login .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    /* text-transform: uppercase; */
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 71px;
+  height: 52px;
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #dbeff2;
+  border-radius: 999px;
+  box-shadow: inset 0 1px 3px rgba(12, 125, 133, 0.15);
+  transition: background-color .25s ease, box-shadow .25s ease;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  top: 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  transition: transform .25s ease;
+}
+
+input:checked + .slider {
+  background: linear-gradient(135deg, #28a3c0, #32c5d2);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 0 2px rgba(40, 163, 192, 0.25);
+}
+
+input:checked + .slider:before {
+  transform: translateX(34px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 999px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.switch-label {
+  font-weight: 600;
+  color: #515151;
+}
+
+.badge-status {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.badge-status.on {
+  background: rgba(50, 197, 210, .15);
+  color: #0c7d85;
+}
+
+.badge-status.off {
+  background: rgba(244, 106, 96, .15);
+  color: #b73423;
+}
+
+.upload_logo_img_msg
+{
+width: 100%;
+height: 160px;
+display: inline-block;
+text-align: center;
+padding: 0;
+background: #f0f2f4;
+}
+.default_image
+{
+height: 164px;
+}
+
+.live_result_red
+{
+    color:#fff;
+    background-color:#fd0011 !important;
+}
+.live_result_black
+{
+    color:#fff;
+    background:#000;
+}
+.live_result_yellow
+{
+    color:#000;
+    background-color: #FFC30E !important;
+}
+
+.rounded-circle
+{
+    border-radius: 50%;
+}
+
+.d-none
+{
+    display: none;    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+
+/*Media query*/
+@media (min-width: 320px) {
+    .portlet > .portlet-title > .actions > .btn, .portlet > .portlet-title > .actions > .btn.btn-sm, .portlet > .portlet-title > .actions > .btn-group > .btn, .portlet > .portlet-title > .actions > .btn-group > .btn.btn-sm {
+        padding: 4px 10px;
+        font-size: 13px;
+        line-height: 1.5;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 544px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+/********************Button 3*******************/
+.box-3
+{
+  width:60px;
+  height:12px;
+  background: rgb(200,200,200) ;
+  position:relative;
+  border-radius:10px;
+  margin-top:5px;
+}
+
+.box-3 input{
+  position:absolute;
+  width:100%;
+  height:100%;
+  cursor:pointer;
+  opacity:0;
+  z-index:999;
+}
+
+.box-3 .toogle{
+  position:absolute;
+  z-index:998;
+  width:25px;
+  height:25px;
+  background: grey;
+  top:-6px;
+  box-shadow:0px 0px 3px rgb(50,50,50) inset;
+  -webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+  text-align:center;
+  border-radius:100%;
+  display:table-cell;
+}
+.box-3 .toogle:before{
+  content:"NO";
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  font-family:tahoma;
+  font-size: 11px;
+  vertical-align:middle;
+}
+
+.box-3 input:checked ~ .toogle{
+  margin-left:35px;
+  transform:rotate(360deg);
+}
+.box-3 input:checked + .toogle:before{
+  content:"YES";
+}
+
+/********************Button 1*******************/
+.box-1
+{
+  width:100px;
+  height:20px;
+  background: rgb(200,200,200) ;
+  position:relative;
+  margin-top:5px;
+}
+
+.box-1 input{
+  position:absolute;
+  width:100%;
+  height:100%;
+  cursor:pointer;
+  opacity:0;
+  z-index:999;
+}
+
+.box-1 .toogle{
+  display:block;
+  position:absolute;
+  z-index:998;
+  width:60px;
+  height:100%;
+  background: grey;
+  top:0;
+  box-shadow:0px 0px 3px rgb(50,50,50) inset;
+  -webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+  text-align:center;
+}
+.box-1 .toogle:before{
+  content:"ACTIVE";
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  font-family:tahoma;
+  font-size: 11px;
+}
+
+.box-1 input:checked ~ .toogle{
+  margin-left:50px;
+}
+.box-1 input:checked + .toogle:before{
+  content:"INACTIVE";
+}
+
+
+/********************Button 2*******************/
+.box-2
+{
+  width:60px;
+  height:12px;
+  background: rgb(200,200,200) ;
+  position:relative;
+  border-radius:10px;
+  margin-top:5px;
+}
+
+.box-2 input{
+  position:absolute;
+  width:100%;
+  height:100%;
+  cursor:pointer;
+  opacity:0;
+  z-index:999;
+}
+
+.box-2 .toogle{
+  position:absolute;
+  z-index:998;
+  width:25px;
+  height:25px;
+  background: grey;
+  top:-6px;
+  box-shadow:0px 0px 3px rgb(50,50,50) inset;
+  -webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+  text-align:center;
+  border-radius:100%;
+  display:table-cell;
+}
+.box-2 .toogle:before{
+  content:"ON";
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  font-family:tahoma;
+  font-size: 11px;
+  vertical-align:middle;
+}
+.box-2 input:checked ~ .toogle{
+  margin-left:35px;
+}
+
+.box-2 input:checked + .toogle:before{
+  content:"OFF";
+}
+
+/* textarea {
+  resize: none;
+} */
+
+.resize-textarea {
+  resize: none;
+}
+
+/* Force override Bootstrap danger button */
+.btn.danger {
+  background: #cd0000 !important;
+  color: #fff !important;
+  border-color: #cd0000 !important;
+}
+
+/* For outline version (btn-outline) */
+.btn.danger.btn-outline {
+  background: transparent !important;
+  color: #cd0000 !important;
+  border: 1px solid #cd0000 !important;
+}
+
+/* On hover/focus states */
+.btn.danger.btn-outline:hover,
+.btn.danger.btn-outline:focus {
+  background: #cd0000 !important;
+  color: #fff !important;
+}
+
+
+
+/* Success button override */
+.btn.success {
+  background: #00a85a !important; /* custom green */
+  color: #fff !important;
+  border-color: #00a85a !important;
+}
+
+/* Outline version */
+.btn.success.btn-outline {
+  background: transparent !important;
+  color: #00a85a !important;
+  border: 1px solid #00a85a !important;
+}
+
+/* Hover & focus states */
+.btn.success.btn-outline:hover,
+.btn.success.btn-outline:focus {
+  background: #00a85a !important;
+  color: #fff !important;
+}
+
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+
+.bootstrap-tagsinput{ 
+  height: 148px; 
+  overflow: auto; 
+} 
+
+.divided-div { 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: flex-end;   
+} 
+
+.divided-div > * { 
+  margin: 10px; 
+  text-align: start; 
+}
+
+
+.ai-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 28px;          /* same button size */
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #ff8b5c;
+  /* box-shadow: 0 6px 14px rgba(255, 139, 92, 0.5); */
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.ai-btn:hover {
+  background: #ff7a42;
+  /* box-shadow: 0 8px 18px rgba(255, 122, 66, 0.6); */
+  transform: translateY(-1px);
+}
+
+.ai-btn:active {
+  transform: translateY(1px) scale(0.98);
+  box-shadow: none;
+}
+
+/* BIGGER robot icon, button same */
+.ai-btn svg {
+  width: 22px;   /* increased */
+  height: 22px;  /* increased */
+  display: block;
+}
+
+
+/* Default Logo dpboss START */
+.dpboss-logo {
+    font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.dpboss-logo strong {
+    color: #ea0f8c;          /* DP – pinkish red #ff0055*/
+    font-weight: 800;        /* thoda extra bold */
+}
+
+.dpboss-logo span {
+    color: #585858;          /* Boss – dark grey */
+    font-weight: 600;
+}
+
+/* optional: thoda tight join feel */
+.dpboss-logo strong,
+.dpboss-logo span {
+    letter-spacing: 0.5px;
+}
+/* Default Logo dpboss END */

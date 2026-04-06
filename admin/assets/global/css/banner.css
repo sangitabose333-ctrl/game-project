@@ -1,0 +1,92 @@
+.upload-box{
+    width:100%;
+    height:200px;
+    border:2px dashed #bbb;
+    position:relative;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+    /*padding-bottom:20px;*/
+    background:#f7f7f7;
+    overflow:hidden;
+}
+
+.upload-content{
+    position:absolute;
+    bottom:20px;
+    width:100%;
+    text-align:center;
+}
+
+.icon{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.upload-btn{
+    background:#ed75bc;
+    color:white;
+    padding:8px 16px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+#fileUpload{
+    display:none;
+}
+
+@media (min-width: 768px) {
+    .center-content{
+        position: relative;
+        left: 16%;
+    }
+}
+
+.banner-row{
+    border: solid 1px;
+    border-color: gray;
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mb-btn{
+    margin-bottom: 26px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+
+#preview{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:none;
+}
+
+#fileUpload{
+    display:none;
+}
+
+.remove-img{
+    position:absolute;
+    top:8px;
+    right:8px;
+    background:red;
+    color:white;
+    width:25px;
+    height:25px;
+    text-align:center;
+    line-height:25px;
+    border-radius:50%;
+    cursor:pointer;
+    display:none;
+    font-size:14px;
+}
+
+#banner-container{
+    overflow: scroll;
+    overflow-y: auto; 
+    overflow-x: hidden;
+}
